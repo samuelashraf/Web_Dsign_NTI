@@ -1,0 +1,63 @@
+*{
+  margin: 5px;
+  padding: 0;
+}
+/*glop*/
+.text_color{
+  color: white;
+}
+body{
+  background-color: aquamarine;
+  
+}
+
+.continer{
+  width: 45%;
+  margin: auto;
+ display: inline-block;
+vertical-align: middle;
+
+}
+
+
+
+h1{
+  text-align: center;
+}
+
+.input-style{
+  border-radius: 5px;
+  width: 75%;
+  margin:20px 0px;
+  padding:10px;
+  display: block;
+  box-sizing: border-box;
+}
+.coustom-style
+{
+  
+width: 37%;
+display: inline-block;
+ box-sizing: border-box;
+}
+#buttom-message{
+   border-radius: 5px;
+   background-color: yellow;
+   width: 25%;
+   padding: 6px;
+   margin-left: 50%;
+  }
+   .costum-text_color{
+    color: greenyellow;
+   }
+  a{
+    text-decoration: none;
+  }
+  ul{
+    padding-left:6% ;
+  }
+
+  .custom-card
+  {
+    margin-left:50px;
+  }
