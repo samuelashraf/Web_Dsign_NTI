@@ -103,6 +103,7 @@ nav{
   font-size: x-large;
   padding:5px ;
 }
+
 /* section2 in project */
 .costum-pad{
   padding:50px 0px;
@@ -149,8 +150,11 @@ width: 40%;
   border-right: none;
   padding: 5px;
   background-color: white;
+ 
 
-
+ }
+ .cous-input{
+  margin-top: 20px;
  }
  .costum-btu-style{
   text-align: center;
