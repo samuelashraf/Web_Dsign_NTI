@@ -1,0 +1,274 @@
+*{
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+  
+}
+.border-right{
+  border-right: 1px solid;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.home-list{
+  position: absolute;
+  top: 120%;
+  border-top: 2px solid rgb(50, 50, 248);
+  padding: 5px 4px ;
+visibility: hidden;
+left: -20px;
+transition:0.2s all;
+
+}
+.home-list li{
+  width: 100%;
+  border-bottom: 1px solid gainsboro;
+}
+ #HOME:hover .home-list{
+ visibility: visible;
+  z-index: 1;
+  background-color: white;
+  left: 0%;
+}
+#Headers:hover .home-list{
+ visibility: visible;
+ z-index: 1;
+ background-color: white;
+ left: 0%;
+ 
+}
+#BlogPost:hover .home-list{
+   visibility: visible;
+    z-index: 1;
+    background-color: white;
+    color: black;
+    left: 0%;
+}
+.img-height{
+  height: 470px;
+}
+
+.silder-overlay{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+.center-overlay{
+  position: absolute;
+  top:30%;
+  left: 22%;
+}
+.custom-btu{
+position: absolute;
+left: 14%;
+margin-left: 50px;
+width: 150px;
+border-radius: 40px; border: none;
+overflow: hidden;
+  
+}
+
+.custom-btu-get{
+  background: #fff;
+ 
+  content: "";
+  height: 150px;
+  top:-60px;
+  left: -50%;
+  opacity: .2;
+  position: absolute;
+ 
+  transform:rotate(35deg);
+ 
+    width: 50px;  
+    transition: 1s all; 
+}
+
+.custom-btu:hover .custom-btu-get{
+ left: 130%;
+}
+
+.cust-btu{
+  position: absolute;
+left: -10%;
+width: 150px;
+border-radius: 40px;
+overflow: hidden;
+}
+.cust-btu:hover .custom-btu-get{
+
+ left: 130%;
+}
+.ps-6{
+  margin-left: 12%;
+}
+.line-header::before{
+  content: "  ";
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  background: rgb(53, 53, 243);
+  border-radius: 40px;
+}
+.line-header::after{
+  content: "  ";
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  background: rgb(53, 53, 243);
+  border-radius: 40px;
+}
+
+span::before{
+   content: "  ";
+  display: inline-block;
+  width: 20px;
+  height: 3px;
+  background: rgb(53, 53, 243);
+ position: absolute;
+top: 77%;
+left: 41.4%;
+border-radius: 40px;
+}
+span::after{
+   content: "   ";
+  display: inline-block;
+  width: 20px;
+  height: 3px;
+  background: rgb(53, 53, 243);
+position: absolute;
+top: 77%;
+border-radius: 40px;
+  
+}
+.bord-card{
+  border: none;
+  border-radius: 0px;
+  box-shadow: 0px 0px 10px 0px #ccc;
+}
+.cus-ps-6{
+  margin-left: 25%;
+}
+.sup-card{
+  position: absolute;
+  top: 3%;
+  bottom: 3%;
+  right:95%;
+}
+.marg-card-sec{
+  margin-top: 70px; 
+  margin-bottom: 100px;
+}
+.font-size{
+  font-size: 30px;
+}
+.boder-left{
+  border-left: 1px solid #ccc;
+}
+.cust-font-size{
+  font-size: small;
+}
+.hov-cord:hover  i{
+  color: rgb(84, 84, 250);
+}
+.hov-cord:hover h5{
+  color: rgb(84, 84, 250) ;
+}
+.ptu-card{
+  background-color: rgb(42, 42, 247) !important;
+  margin-left: 20px;
+  width: 120px;
+  color: aliceblue !important;
+}
+.icon-cont{
+  width: 100px;
+ height:70px;
+  padding-top: 20px;
+  border: none;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px #ccc;
+}
+.height-cont{
+  height: 200px;
+  padding-top: 70px;
+  background-color: #d7d7d7;
+  margin-top: 150px;
+}
+.pg-img{
+  background-image: url("imag/service-bg.jpg");
+  background-attachment: fixed;
+
+  width: 100%;
+}
+.overlay{
+  /* background-color: rgb(0 0 0 / 63%) ; */
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  
+}
+.text-color{
+  font-weight: bold;
+  color: black;
+}
+.span-line::before{
+   content: " ";
+  display: inline-block;
+  width: 20px;
+  height: 3px;
+  background: rgb(53, 53, 243);
+ position: absolute;
+top: 77%;
+left: 39.3%;
+border-radius: 40px;
+}
+.card-hover{
+  background-color: transparent;
+  overflow: hidden;
+}
+.font-size-icon{
+  font-size: 70px;
+  padding-top: 15px;
+}
+.hover-card{
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  right: 0%;
+  background-color: white;
+  color: black;
+  transition: 1s all;
+  
+}
+.card-hover:hover .hover-card{
+  top: 0%;
+}
+.ptu-card-hover{
+  width: 120px;
+  margin-left: 40%;
+}
+.m-aout{
+  margin: auto;
+}
+li a:hover{
+  color: rgb(36, 36, 249);
+}
+.hedin-card{
+  position: absolute;
+  bottom: 0%;
+  left: 20px;
+  right: 20px;
+  transform: scaleX(0);
+  transition: 1s all;
+}
+.hed-card:hover  .hedin-card{
+  transform: scaleX(1);
+}
+.hed-card{
+  margin-top: 30px;
+}
