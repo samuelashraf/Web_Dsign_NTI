@@ -148,7 +148,7 @@ border-radius: 40px;
 .bord-card{
   border: none;
   border-radius: 0px;
-  box-shadow: 0px 0px 10px 0px #ccc;
+  /* box-shadow: 0px 0px 10px 0px #ccc; */
 }
 .cus-ps-6{
   margin-left: 25%;
@@ -212,10 +212,10 @@ border-radius: 40px;
   width: 100%;
   
 }
-.text-color{
+/* .text-color{
   font-weight: bold;
   color: black;
-}
+} */
 .span-line::before{
    content: " ";
   display: inline-block;
@@ -260,15 +260,72 @@ li a:hover{
 }
 .hedin-card{
   position: absolute;
-  bottom: 0%;
+  bottom:3%;
   left: 20px;
   right: 20px;
   transform: scaleX(0);
-  transition: 1s all;
+  transition: 0.4s all;
 }
 .hed-card:hover  .hedin-card{
   transform: scaleX(1);
 }
 .hed-card{
   margin-top: 30px;
+}
+.card-border {
+  border: none;
+  border-radius: 10px;
+
+}
+img{
+  width: 100%;
+   border-radius: 2px;
+}
+.cover-img{
+   border-radius: 0px;
+   padding-top: 50px;
+}
+.team-span::before{
+    content: " ";
+  display: inline-block;
+  width: 20px;
+  height: 3px;
+  background: rgb(53, 53, 243);
+ position: absolute;
+top: 77%;
+left: 37.3%;
+border-radius: 40px;
+}
+.crad-hafe{
+  position: absolute;
+  top: 78%;
+  left: 12%;
+  right: 12%;
+  transition: 0.5s all;
+} 
+.border-bot{ 
+  border-bottom: 2px solid black;
+  width: 94%;
+  margin: auto;
+}
+.card-hover:hover .crad-hafe{
+  top: 48%;
+  bottom: 0%;
+ 
+}
+.card-hover:hover .border-bot{
+  border-bottom: 0;
+}
+.m-l{
+  margin-left: 80px;
+}
+.up{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  padding-top :5px ;
+  font-size: 20px;
 }
